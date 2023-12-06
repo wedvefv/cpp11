@@ -1,0 +1,1 @@
+c++默认是赋值语义，需要自己定义移动语义move，不能直接move一个deque里的元素，虽然move出去了，但是deque的size不会自动减少，变成了null
